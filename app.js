@@ -34,10 +34,11 @@ function generateHash(obj) {
     return SHA256(JSON.stringify(obj));
 }
 
+// for (var i = 1; i < 10; i++) {
 console.log(`SHA256 Hash: ${generateHash(data1)}`);
 console.log('************************************');
 console.log(`SHA256 Hash: ${generateHash(dataObject)}`);
-
+//}
 /**
  * Run your application using `node app.js`
  */
